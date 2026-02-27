@@ -1,0 +1,18 @@
+/* Custom Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Smooth Transitions */
+.category-btn {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Iframe Loading State */
+iframe {
+    background-color: #000;
+}
