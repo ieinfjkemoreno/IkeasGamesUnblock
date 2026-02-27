@@ -1,0 +1,58 @@
+[
+  {
+    "id": "slope",
+    "title": "Slope",
+    "thumbnail": "https://picsum.photos/seed/slope/400/300",
+    "url": "https://kdata1.com/2020/05/slope/",
+    "category": "Action"
+  },
+  {
+    "id": "tunnel-rush",
+    "title": "Tunnel Rush",
+    "thumbnail": "https://picsum.photos/seed/tunnel/400/300",
+    "url": "https://kdata1.com/2020/05/tunnel-rush/",
+    "category": "Action"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "thumbnail": "https://picsum.photos/seed/retrobowl/400/300",
+    "url": "https://game316046.konggames.com/gamez/0031/6046/live/index.html",
+    "category": "Sports"
+  },
+  {
+    "id": "1v1-lol",
+    "title": "1v1.LOL",
+    "thumbnail": "https://picsum.photos/seed/1v1/400/300",
+    "url": "https://1v1.lol/",
+    "category": "Action"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "thumbnail": "https://picsum.photos/seed/cookie/400/300",
+    "url": "https://orteil.dashnet.org/cookieclicker/",
+    "category": "Idle"
+  },
+  {
+    "id": "geometry-dash",
+    "title": "Geometry Dash",
+    "thumbnail": "https://picsum.photos/seed/geometry/400/300",
+    "url": "https://geometry-dash.io/game/geometry-dash-online/",
+    "category": "Platformer"
+  },
+  {
+    "id": "drift-hunters",
+    "title": "Drift Hunters",
+    "thumbnail": "https://picsum.photos/seed/drift/400/300",
+    "url": "https://www.supergames.com/game/drift-hunters",
+    "category": "Racing"
+  },
+  {
+    "id": "bitlife",
+    "title": "BitLife",
+    "thumbnail": "https://picsum.photos/seed/bitlife/400/300",
+    "url": "https://bitlifeonline.io/",
+    "category": "Simulation"
+  }
+]
