@@ -27,10 +27,10 @@ function renderCategories() {
     container.innerHTML = categories.map(cat => `
         <button
             onclick="setCategory('${cat}')"
-            class="category-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap transition-all ${
+            class="category-btn px-4 py-1.5 rounded-none text-xs font-bold whitespace-nowrap transition-all border ${
                 currentCategory === cat
-                    ? 'bg-emerald-500 text-black shadow-lg shadow-emerald-500/20'
-                    : 'bg-zinc-900 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200'
+                    ? 'bg-[#00f0ff] text-black border-[#00f0ff] shadow-[0_0_15px_rgba(0,240,255,0.5)]'
+                    : 'bg-black text-[#00f0ff] border-[#00f0ff]/30 hover:bg-[#00f0ff]/10 hover:border-[#00f0ff]'
             }"
             data-category="${cat}"
         >
@@ -58,19 +58,19 @@ function renderGames() {
         grid.innerHTML = filtered.map(game => `
             <div
                 onclick="openGame('${game.id}')"
-                class="group relative bg-zinc-900 rounded-2xl overflow-hidden cursor-pointer border border-white/5 hover:border-emerald-500/50 transition-all hover:shadow-2xl hover:shadow-emerald-500/10"
+                class="game-card group relative bg-black overflow-hidden cursor-pointer"
             >
-                <div class="aspect-[4/3] overflow-hidden">
+                <div class="aspect-[4/3] overflow-hidden border-b border-[#00f0ff]/20">
                     <img
                         src="${game.thumbnail}"
                         alt="${game.title}"
-                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100"
                         referrerpolicy="no-referrer"
                     />
                 </div>
-                <div class="p-3 bg-gradient-to-t from-black/80 to-transparent absolute inset-x-0 bottom-0">
-                    <h3 class="font-semibold text-sm truncate">${game.title}</h3>
-                    <p class="text-[10px] text-zinc-400 uppercase tracking-wider font-bold">${game.category}</p>
+                <div class="p-3 bg-gradient-to-t from-black via-black/80 to-transparent absolute inset-x-0 bottom-0">
+                    <h3 class="font-bold text-xs truncate text-[#00f0ff] uppercase tracking-wider">${game.title}</h3>
+                    <p class="text-[9px] text-[#ff00ff] uppercase tracking-[0.2em] font-black">${game.category}</p>
                 </div>
             </div>
         `).join('');
