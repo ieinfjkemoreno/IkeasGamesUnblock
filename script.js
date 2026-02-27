@@ -10,7 +10,7 @@ function initIcons() {
 // Fetch games from JSON
 async function loadGames() {
     try {
-        const response = await fetch('games.json');
+        const response = await fetch('./games.json');
         allGames = await response.json();
         renderCategories();
         renderGames();
