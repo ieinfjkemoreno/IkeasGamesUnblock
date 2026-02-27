@@ -1,58 +1,23 @@
 [
   {
-    "id": "slope",
-    "title": "Slope",
-    "thumbnail": "https://picsum.photos/seed/slope/400/300",
-    "url": "https://kdata1.com/2020/05/slope/",
+    "id": "fnaf",
+    "title": "Five Nights at Freddy's",
+    "thumbnail": "https://i0.wp.com/cliqist.com/wp-content/uploads/2014/09/FiveNightsFreddysTitle.jpg?fit=492%2C369&ssl=1",
+    "url": "https://storage.googleapis.com/freezenova/all/2024/more2/five-nights-at-freddys/pre-gg.html",
+    "category": "Horror"
+  },
+  {
+    "id": "murder",
+    "title": "Murder",
+    "thumbnail": "https://studioseufz.com/seufzWP/wp-content/uploads/2020/04/murder_stills01.png",
+    "url": "/play/murder/",
     "category": "Action"
   },
   {
-    "id": "tunnel-rush",
-    "title": "Tunnel Rush",
-    "thumbnail": "https://picsum.photos/seed/tunnel/400/300",
-    "url": "https://kdata1.com/2020/05/tunnel-rush/",
-    "category": "Action"
-  },
-  {
-    "id": "retro-bowl",
-    "title": "Retro Bowl",
-    "thumbnail": "https://picsum.photos/seed/retrobowl/400/300",
-    "url": "https://game316046.konggames.com/gamez/0031/6046/live/index.html",
-    "category": "Sports"
-  },
-  {
-    "id": "1v1-lol",
-    "title": "1v1.LOL",
-    "thumbnail": "https://picsum.photos/seed/1v1/400/300",
-    "url": "https://1v1.lol/",
-    "category": "Action"
-  },
-  {
-    "id": "cookie-clicker",
-    "title": "Cookie Clicker",
-    "thumbnail": "https://picsum.photos/seed/cookie/400/300",
-    "url": "https://orteil.dashnet.org/cookieclicker/",
-    "category": "Idle"
-  },
-  {
-    "id": "geometry-dash",
-    "title": "Geometry Dash",
-    "thumbnail": "https://picsum.photos/seed/geometry/400/300",
-    "url": "https://geometry-dash.io/game/geometry-dash-online/",
-    "category": "Platformer"
-  },
-  {
-    "id": "drift-hunters",
-    "title": "Drift Hunters",
-    "thumbnail": "https://picsum.photos/seed/drift/400/300",
-    "url": "https://www.supergames.com/game/drift-hunters",
-    "category": "Racing"
-  },
-  {
-    "id": "bitlife",
-    "title": "BitLife",
-    "thumbnail": "https://picsum.photos/seed/bitlife/400/300",
-    "url": "https://bitlifeonline.io/",
-    "category": "Simulation"
+    "id": "google-sandbox",
+    "title": "Google Sandbox",
+    "thumbnail": "https://picsum.photos/seed/sandbox/400/300",
+    "url": "https://n-3bpncphqxmau56vca4l4ff5ujwifdanpmpogdhq-0lu-script.googleusercontent.com/userCodeAppPanel",
+    "category": "Sandbox"
   }
 ]

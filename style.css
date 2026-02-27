@@ -16,3 +16,23 @@
 iframe {
     background-color: #000;
 }
+
+/* Sound Button Styling */
+.small-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #27272a; /* zinc-800 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.small-button:hover {
+    background-color: #3f3f46; /* zinc-700 */
+    border-color: #10b981; /* emerald-500 */
+}
+

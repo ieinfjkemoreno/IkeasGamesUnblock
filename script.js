@@ -131,6 +131,15 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
+// Sound Playback Logic
+window.play = (audioUrl, loaderId, soundId) => {
+    console.log(`Playing sound: ${soundId} from ${audioUrl}`);
+    const audio = new Audio(audioUrl);
+    audio.play().catch(err => {
+        console.warn("Audio playback failed. This is expected if the file doesn't exist in the preview environment.", err);
+    });
+};
+
 // Start
 document.addEventListener('DOMContentLoaded', () => {
     initIcons();
