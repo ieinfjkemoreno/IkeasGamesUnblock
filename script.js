@@ -112,6 +112,22 @@ document.getElementById('close-modal').onclick = () => {
     document.body.style.overflow = 'auto';
 };
 
+// Troll Overlay Logic
+const supportTrigger = document.getElementById('support-trigger');
+const trollOverlay = document.getElementById('troll-overlay');
+const trollVideo = document.getElementById('troll-video');
+
+if (supportTrigger && trollOverlay && trollVideo) {
+    supportTrigger.onclick = () => {
+        trollOverlay.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+        trollVideo.play().catch(err => console.warn("Troll play failed:", err));
+        
+        // Loop the video for maximum troll effect
+        trollVideo.loop = true;
+    };
+}
+
 // Fullscreen Logic
 window.toggleFullscreen = () => {
     const iframe = document.getElementById('game-iframe');
@@ -127,6 +143,11 @@ window.toggleFullscreen = () => {
 // Close on ESC
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
+        const trollOverlay = document.getElementById('troll-overlay');
+        if (trollOverlay && !trollOverlay.classList.contains('hidden')) {
+            // Do nothing, it's a troll!
+            return;
+        }
         document.getElementById('close-modal').click();
     }
 });

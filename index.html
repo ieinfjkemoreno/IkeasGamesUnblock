@@ -31,7 +31,7 @@
             </div>
 
             <div class="flex items-center gap-4">
-                <button class="hidden md:flex items-center gap-2 text-xs font-bold text-[#ff00ff] hover:text-[#00f0ff] transition-colors uppercase tracking-widest">
+                <button id="support-trigger" class="flex items-center gap-2 text-xs font-bold text-[#ff00ff] hover:text-[#00f0ff] transition-colors uppercase tracking-widest">
                     [ SUPPORT ]
                 </button>
                 <button class="small-button" onclick="play('https://www.myinstants.com/media/sounds/fahhhhhhhhhhhhhh.mp3', 'loader-507030', 'fahhhhhhhhhhhhhh-3525')" title="Play FAHHHHHHHHHHHHHH sound" type="button">
@@ -149,6 +149,30 @@
                     </div>
                     <p class="text-xs text-[#ff00ff] font-bold uppercase tracking-widest px-2">Avengers</p>
                 </div>
+                <!-- Movie 8: Inside Out 2 -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-video w-full bg-black rounded-none overflow-hidden border border-[#ff00ff]/30 group-hover:border-[#ff00ff] transition-all group-hover:shadow-[0_0_20px_rgba(255,0,255,0.2)]">
+                        <iframe 
+                            src="https://drive.google.com/file/d/148ae2JtLzIZwy-AKjtRgLZPNf3vEmQOE/preview" 
+                            class="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500" 
+                            allow="autoplay" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <p class="text-xs text-[#ff00ff] font-bold uppercase tracking-widest px-2">Inside Out 2</p>
+                </div>
+                <!-- Movie 9: Home Alone -->
+                <div class="flex flex-col gap-4 group">
+                    <div class="aspect-video w-full bg-black rounded-none overflow-hidden border border-[#ff00ff]/30 group-hover:border-[#ff00ff] transition-all group-hover:shadow-[0_0_20px_rgba(255,0,255,0.2)]">
+                        <iframe 
+                            src="https://drive.google.com/file/d/1l7dSSnBmw9Fnku5lxl7zYk7CsQa4JU3d/preview" 
+                            class="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500" 
+                            allow="autoplay" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <p class="text-xs text-[#ff00ff] font-bold uppercase tracking-widest px-2">Home Alone</p>
+                </div>
             </div>
         </div>
     </main>
@@ -206,6 +230,13 @@
             <p class="text-[10px] font-mono text-zinc-700 uppercase">© 2026 IkeasGames // System_v4.0.2</p>
         </div>
     </footer>
+
+    <!-- Troll Overlay -->
+    <div id="troll-overlay" class="fixed inset-0 z-[100] hidden bg-black flex items-center justify-center">
+        <video id="troll-video" class="w-full h-full object-contain" loop playsinline>
+            <source src="blob:https://1764202045-atari-embeds.googleusercontent.com/43c7c709-9642-4838-a680-041c28a62fcb" type="video/mp4">
+        </video>
+    </div>
 
     <script src="./script.js"></script>
 </body>
